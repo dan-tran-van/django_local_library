@@ -36,7 +36,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ['https://web-production-b7e2a.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['web-production-b7e2a.up.railway.app', '127.0.0.1']
 
 
 # Application definition
